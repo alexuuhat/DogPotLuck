@@ -164,7 +164,7 @@ async function run() {
             const count = await cursor.count();
             res.send({ count });
         });
-        // add Blog 
+        // add Blog here
         app.post('/blogAdd', async (req, res) => {
             const newProduct = req.body;
             // console.log('adding new Blog', newProduct);
